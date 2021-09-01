@@ -1,0 +1,8 @@
+---
+aviLb:
+  controllerVersion: v20.1.3
+mgmtClu:
+  name: mgmt-clu
+  extensions:
+  - name: LDAP/OIDC
+  version: 1.3.0
