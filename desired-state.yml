@@ -6,3 +6,35 @@ mgmtClu:
   extensions:
   - name: LDAP/OIDC
   version: 1.3.0
+sharedClu:
+  name: shared-clu
+  extensions:
+  - name: contour
+  - name: harbor
+  version: 1.3.0
+wlClusters:
+- name: wl-clu-1
+  extensions:
+  - name: prometheus
+  - name: grafana
+  - name: fluent-bit
+  version: 1.3.0
+- name: wl-clu-2
+  extensions:
+  - name: prometheus
+  - name: grafana
+  - name: fluent-bit
+  version: 1.3.0
+- name: wl-clu-3
+  extensions:
+  - name: prometheus
+  - name: grafana
+  - name: fluent-bit
+  version: 1.3.0
+- name: wl-clu-4
+  extensions:
+  - name: prometheus
+  - name: grafana
+  - name: fluent-bit
+  version: 1.3.0
+
